@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "439406634866",
+    "project_id": "lojavirtual-7572f",
+    "storage_bucket": "lojavirtual-7572f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439406634866:android:e002d03a8d51592d19dfeb",
+        "android_client_info": {
+          "package_name": "com.loja.lojavirtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439406634866-9c044voh138656uv9e5s8pd6os8scs5e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.loja.lojavirtual",
+            "certificate_hash": "942dc3577cc1fa0f26b0d249929969539a94f67b"
+          }
+        },
+        {
+          "client_id": "439406634866-06at0msldq5hp30cfqa7lrv65naikmqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlDRN1cb8wt1uxwTtmsG4k-fOC33Q3IwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439406634866-06at0msldq5hp30cfqa7lrv65naikmqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
