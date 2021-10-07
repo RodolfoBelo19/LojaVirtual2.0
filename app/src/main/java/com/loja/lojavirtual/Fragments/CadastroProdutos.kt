@@ -12,6 +12,7 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
 import com.loja.lojavirtual.Model.Dados
 import com.loja.lojavirtual.R
+import com.loja.lojavirtual.TelaPrincipal
 import com.loja.lojavirtual.databinding.ActivityCadastroProdutosBinding
 import kotlinx.android.synthetic.main.activity_cadastro_produtos.*
 import kotlinx.android.synthetic.main.activity_cadastro_produtos.view.*
@@ -93,11 +94,14 @@ class CadastroProdutos : AppCompatActivity() {
                             }.addOnFailureListener {
 
                             }
-
-
                     }
                 }
         }
+
+        var intent = Intent(this, TelaPrincipal::class.java)
+        startActivity(intent)
+
+
 
     }
 
